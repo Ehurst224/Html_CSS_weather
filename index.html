@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+ <!-- to create the home page -->
+<head>
+    <!-- encoding -->
+    <meta charset = "UTF -8">
+    <title>Home</title>
+    <!-- boot strap -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- css style sheet (must be after style sheet)-->
+    <link rel= "stylesheet" href = "styles.css">
+</head>
+
+<body>
+    <nav class = "navbar">
+        <h3>Latitude</h3>
+        <ul>
+        <li>Plots</li>
+        <li>Comparison</li>
+        <li>Data</li>
+        </ul>
+    </nav>
+
+    <div class = "container">
+        <div class = "row">
+            <div class="col-md-8">
+                <div id = "content">
+                    <h2>Summary: Latitude vs X</h2>
+                        <a target = "blank" href = "assets/images/Fig1.png"><img id="floated"class="thumbnail" src="assets/images/Fig1.png" alt="scatter plot 1 "></a>
+                        <p>The purpose of this project was to analyze how weeather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherAPI to assemble datasets on over 500 cities. 
+                        </p>
+                        <p>
+                            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
+                        </p>
+            
+                </div>
+            </div>
+
+            <div class = "col-4">
+                <div id = "content">
+                    <h2>Visualizations</h2>
+                        <a target="blank" href="assets/images/Fig1.png"><img class="thumbnail" src="assets/images/Fig1.png" alt="scatter plot 1"></a>
+                        <a target="blank" href="assets/images/Fig2.png"><img class="thumbnail" src="assets/images/Fig2.png" alt="scatter plot 2"></a>
+                        <a target="blank" href="assets/images/Fig3.png"><img class="thumbnail" src="assets/images/Fig3.png" alt="scatter plot 3"></a>
+                        <a target="blank" href="assets/images/Fig4.png"><img class="thumbnail" src="assets/images/Fig4.png" alt="scatter plot 4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

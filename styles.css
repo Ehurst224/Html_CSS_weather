@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(211, 202, 202);
+}
+
+nav {
+    background-color: whitesmoke;
+    padding: 0;
+}
+
+.navbar li{
+    display: inline;
+}
+
+nav h3{
+    display: inline-block;
+    color: whitesmoke;
+    background-color: teal;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    color: teal;
+    margin: 20px 0px;
+}
+
+.thumbnail{
+    width: 170px
+}
+
+#floated {
+    float: left ;
+}
+
+#content{
+    margin: 50px 0px;
+    padding: 0px 0px;
+    background-color: whitesmoke;
+}
