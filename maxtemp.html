@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+ <!-- to create the home page -->
+<head>
+    <!-- encoding -->
+    <meta charset = "UTF-8">
+    <title>maxtemperature</title>
+    <!-- boot strap -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- css style sheet (must be after style sheet)-->
+    <link rel= "stylesheet" href = "styles.css">
+</head>
+
+
+ <!-- home page -->
+<body>
+    <nav class = "navbar">
+        <a href="index.html"><h3>Latitude</h3></a>
+        <ul>
+            <div class="dropdown">
+                <button class="dropbtn">Plots</button>
+        <div class="dropdown-content">
+            <a href="maxtemp.html">Max Temperature</a>
+            <a href="humidity.html">Humidity</a>
+            <a href="windspeed.html">Wind Speed</a>
+            <a href="cloudiness.html">Cloudiness</a>
+        </div>
+        <a href="comparison.html"><li>Comparison</li></a>
+        <a href="data.html"><li>Data</li></a>
+        </div>  
+        </ul>
+    </nav>
+
+    <div class = "container">
+        <div class = "row">
+            <div class="col-md-8">
+                <div id = "content">
+                    <h2>Max Temperature</h2>
+                        <a target = "blank" href = "assets/images/Fig1.png"><center><img class="individual" src="assets/images/Fig1.png" alt="scatter plot 1 "></center></a>
+                        <p>As expected, the weather becomes significantly warmer as one approaches the equator 
+                            (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere 
+                            tends to be warmer this time of the year than the northern hemisphere. This may be due to the
+                            tilt of the earth at the time of the year this data was gathered.
+                        </p>
+            
+                </div>
+            </div>
+
+            <div class = "col-md-4">
+                <div id = "content">
+                    <h2>Visualizations</h2>
+                        <a target="blank" href="maxtemp.html"><img class="individual3" src="assets/images/Fig1.png" alt="scatter plot 1"></a>
+                        <a target="blank" href="humidity.html"><img class="individual2" src="assets/images/Fig2.png" alt="scatter plot 2"></a>
+                        <a target="blank" href="cloudiness.html"><img class="individual2" src="assets/images/Fig3.png" alt="scatter plot 3"></a>
+                        <a target="blank" href="windspeed.html"><img class="individual2" src="assets/images/Fig4.png" alt="scatter plot 4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

@@ -17,11 +17,19 @@
  <!-- home page -->
 <body>
     <nav class = "navbar">
-        <h3>Latitude</h3>
+        <a href="index.html"><h3>Latitude</h3></a>
         <ul>
-        <li>Plots</li>
-        <li>Comparison</li>
-        <li>Data</li>
+            <div class="dropdown">
+                <button class="dropbtn">Plots</button>
+        <div class="dropdown-content">
+            <a href="maxtemp.html">Max Temperature</a>
+            <a href="humidity.html">Humidity</a>
+            <a href="windspeed.html">Wind Speed</a>
+            <a href="cloudiness.html">Cloudiness</a>
+        </div>
+        <a href="comparison.html"><li>Comparison</li></a>
+        <a href="data.html"><li>Data</li></a>
+        </div>  
         </ul>
     </nav>
 
@@ -43,10 +51,10 @@
             <div class = "col-md-4">
                 <div id = "content">
                     <h2>Visualizations</h2>
-                        <a target="blank" href="assets/images/Fig1.png"><img class="thumbnail" src="assets/images/Fig1.png" alt="scatter plot 1"></a>
-                        <a target="blank" href="assets/images/Fig2.png"><img class="thumbnail" src="assets/images/Fig2.png" alt="scatter plot 2"></a>
-                        <a target="blank" href="assets/images/Fig3.png"><img class="thumbnail" src="assets/images/Fig3.png" alt="scatter plot 3"></a>
-                        <a target="blank" href="assets/images/Fig4.png"><img class="thumbnail" src="assets/images/Fig4.png" alt="scatter plot 4"></a>
+                        <a href="maxtemp.html"target="blank" href="assets/images/Fig1.png"><img class="thumbnail" src="assets/images/Fig1.png" alt="scatter plot 1"></a>
+                        <a href="humidity.html"target="blank" href="assets/images/Fig2.png"><img class="thumbnail" src="assets/images/Fig2.png" alt="scatter plot 2"></a>
+                        <a href="cloudiness.html"target="blank" href="assets/images/Fig3.png"><img class="thumbnail" src="assets/images/Fig3.png" alt="scatter plot 3"></a>
+                        <a href="windspeed.html"target="blank" href="assets/images/Fig4.png"><img class="thumbnail" src="assets/images/Fig4.png" alt="scatter plot 4"></a>
                 </div>
             </div>
         </div>
